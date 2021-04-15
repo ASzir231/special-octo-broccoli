@@ -1,0 +1,146 @@
+.menu{
+	text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  opacity: 0.8;
+  width: 100%;
+}
+.menu a{
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+	width: 150px;
+	display: inline-block;
+	padding: 20px 40px;
+	font-weight: bold;
+}
+.menu a:hover{
+     background-color:black;
+     color: white;
+}
+.header{
+	text-align: center;
+	color: white;
+	padding: 200px 0px;
+	background-image: url(img/go.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+  margin-top: 60px;
+  background-attachment: fixed;
+}
+ #company  img {
+ 	width: 400px;
+ 	float: right;
+ 	margin: 20px;
+ 	margin-top: 0px;
+
+ }
+ #company {
+ 	padding: 30px 0px;
+ 	margin: 0 auto;
+    text-align: justify;
+ }
+  #company h2 {
+  	text-align: center;
+  }
+  .member {
+  	width: 27%;
+  	display: inline-block;
+  	border: 2px solid gray;
+  	padding: 15px;
+  	text-align: left;
+  	box-shadow: 0 2px 5px  gray;
+  	margin: 10px;
+  }
+  .member img{
+  	width: 100%;
+    height: 200px;
+  }
+  #team{
+  	text-align: center;
+    
+  }
+  .member a{
+  	display: inline-block;
+  	width: 100%;
+  	text-decoration: none;
+  	text-align: center;
+  	padding: 14px 0;
+  	color: black;
+  	background-color: #008B8B;
+  	border-radius: 10px;
+  }
+  .member a:hover{
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+  }
+
+  .tarif li{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    padding: 25px 35px;
+    color: black;
+  }
+  .tarif{
+    display:inline-block;
+    widows: 30%;
+    margin: 5px;
+    padding: 0;
+    background-color: white; 
+    vertical-align: middle;
+  }
+  .tarif a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+  }
+ #prices{
+  text-align: center;
+  background-color: gray;
+  padding: 25px;
+  color: white;
+ }
+
+  .tarif a:hover {
+   background-color: white;
+  color: black;
+  }
+  .tarifname{
+    background-color:#008080; 
+    color: white;
+    font-size: 24px;
+    padding: 32px;
+  }
+ .best{
+  padding: 48px 0;
+  background-color: #008080;
+ }
+#contk {
+  background-color: #008080;
+  text-align: center;
+  padding: 40px 0;
+}
+ input {
+   padding: 8px;
+   width: 90%;
+ }
+ #contk button{
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  cursor:pointer;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+ }
+
+#contk button:hover{
+  background-color: white;
+  color: black;
+}
